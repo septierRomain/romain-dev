@@ -8,6 +8,15 @@ function Menu() {
         Home
       </li>
       <li>
+        Services
+      </li>
+      <li>
+        Compétences
+      </li>
+      <li>
+        Portfolio
+      </li>
+      <li>
         Contact
       </li>
     </div>
