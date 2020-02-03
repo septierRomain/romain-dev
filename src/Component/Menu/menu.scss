@@ -1,0 +1,11 @@
+@import '../../Styles/vars';
+
+#Menu {
+  background: $navbar-bg-color;
+  color: $navbar-title-color;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 2em;
+  padding: 1em 0;
+}
