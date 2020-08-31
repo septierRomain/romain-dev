@@ -9,12 +9,10 @@
   font-size: 2em;
   padding: 1em 0;
 }
-a{
-  text-decoration: none;
-  list-style-type: none;
+#Menu a{
   color: $navbar-title-color;
   transition-duration: 800ms;
 }
-a:hover{
+#Menu a:hover{
   font-size: 1.2em;
 }

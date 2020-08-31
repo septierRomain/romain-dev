@@ -16,3 +16,20 @@ code {
   width: 100%;
   text-align: center;
 }
+#presentation, #contact-content {
+  width: 50%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+hr{
+  width: 50%;
+  transition-duration: 800ms;
+}
+hr:hover{
+  width: 100%;
+}
