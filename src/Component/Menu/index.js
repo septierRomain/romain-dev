@@ -1,23 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import './menu.scss'
 
 function Menu() {
   return(
     <div id="Menu">
       <li>
-        Home
+        <Link to='/'>Home</Link>
       </li>
       <li>
-        Services
+        <Link to='/competences'>Compétences</Link>
       </li>
       <li>
-        Compétences
+      <Link to='/portfolio'>Portfolio</Link>
       </li>
       <li>
-        Portfolio
-      </li>
-      <li>
-        Contact
+      <Link to='/contact'>Contact</Link>
       </li>
     </div>
   )
