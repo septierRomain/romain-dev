@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,7 +17,7 @@ code {
   width: 100%;
   text-align: center;
 }
-#presentation, #contact-content {
+.content {
   width: 50%;
   margin: auto;
 }
@@ -32,4 +33,11 @@ hr{
 }
 hr:hover{
   width: 100%;
+}
+
+.titre{
+  font-size: 5vmin;
+}
+.content p {
+  font-size: 2vmin;
 }

@@ -4,9 +4,12 @@ import './portfolio.scss'
 function Portfolio() {
   return(
     <div id='portfolio'>
-      <h1>
-        Je suis le suis portfolio
-      </h1>
+      <div className='content'>
+        <h1 className='titre'>
+          Je suis le suis portfolio
+        </h1>
+        <hr />
+      </div>
     </div>
   )
 }

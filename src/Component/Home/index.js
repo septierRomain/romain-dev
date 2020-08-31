@@ -4,8 +4,8 @@ import './home.scss'
 function Home() {
   return(
     <div id="Home">
-      <div id="presentation">
-        <h1>
+      <div className="content">
+        <h1 className='titre'>
           Presentation
         </h1>
         <hr></hr>

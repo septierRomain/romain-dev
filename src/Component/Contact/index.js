@@ -4,8 +4,8 @@ import './contact.scss'
 function Contact() {
   return(
     <div id='contact'>
-      <div id='contact-content'>
-        <h1>
+      <div className='content'>
+        <h1 className='titre'>
           Contactez moi !
         </h1>
         <hr />
