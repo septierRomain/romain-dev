@@ -1,5 +1,6 @@
 @import '../../Styles/vars';
 
+// All queries
 #Menu {
   background: $navbar-bg-color;
   color: $navbar-title-color;
@@ -15,4 +16,42 @@
 }
 #Menu a:hover{
   font-size: 1.2em;
+}
+
+label{
+  margin: 1em;
+  font-size: 2em;
+  display: none;
+  width: 5vw;
+}
+
+#toggle {
+  display: none;
+}
+
+// Media queries
+// @media (min-width: 701px) {
+//   .Burger{
+//     visibility: hidden;
+//   }
+// }
+@media only screen and (max-width: 700px) {
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  #Menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  #Menu a {
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 0;
+    font-size: 3vh;
+  }
+  #toggle:checked + #Menu{
+    display: block;
+  }
 }

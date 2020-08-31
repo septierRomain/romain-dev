@@ -9,6 +9,9 @@ function Portfolio() {
           Je suis le suis portfolio
         </h1>
         <hr />
+        <div id='portfolio-card'>
+          
+        </div>
       </div>
     </div>
   )
