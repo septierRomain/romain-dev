@@ -12,6 +12,7 @@ function Portfolio() {
         <hr />
         <div id='portfolio-card'>
           <a href='https://determined-perlman-ef7595.netlify.app/' target='blank'>Kalees</a>
+          <a href='https://eloquent-edison-81ade5.netlify.app/' target='blank'>Pokedex</a>
         </div>
       </div>
     </div>
