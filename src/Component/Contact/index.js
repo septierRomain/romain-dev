@@ -10,10 +10,9 @@ function Contact() {
         </h1>
         <hr />
         <p>
-          Un projet, une question ou simplement echanger autour d'une table ? N'hesitez pas a me contacter.
+          Un projet, une question ou simplement echanger autour d'un verre ? N'hesitez pas a me contacter.
         </p>
         <a href='mailto:septier.romain@protonmail.com'>septier.romain@protonmail.com</a>
-        <h2>Mon cv</h2>
       </div>
     </div>
   )
