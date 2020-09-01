@@ -1,1 +1,11 @@
 @import '../../Styles/_vars';
+
+.competences-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1vw;
+  color: $navbar-bg-color;
+}
+.content p {
+  color: grey;
+}

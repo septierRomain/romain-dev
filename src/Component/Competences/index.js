@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import { Icon } from 'semantic-ui-react'
+
 import './competences.scss'
 
 function Competences() {
@@ -15,9 +17,13 @@ function Competences() {
         <p>
           Etiam mattis tristique semper. Quisque quis scelerisque ante, quis accumsan augue. Integer id dignissim mauris. Etiam vel lectus tempus, consequat nisl vel, consequat orci. Sed viverra dui nec libero porta eleifend. Pellentesque ullamcorper pharetra nunc eu porta. Curabitur magna lectus, cursus id nunc a, aliquet mollis felis.
         </p>
-        <p>
-          Donec sit amet nisi vel tortor volutpat maximus at at mi. Curabitur vitae dui vel dolor tincidunt venenatis. Vestibulum sodales eros id sollicitudin euismod. Proin dictum ultricies magna at congue. Phasellus gravida turpis eget finibus vulputate. Sed in facilisis libero, ut tristique nulla. Sed semper mattis turpis, viverra tempor nibh. Phasellus sed nisi congue, elementum tellus id, hendrerit ante. Mauris egestas faucibus mauris a lacinia. Donec et ultrices ipsum, eu finibus metus. Praesent euismod arcu a erat hendrerit ultrices. Cras laoreet tellus id diam ullamcorper consectetur. Pellentesque tellus quam, tristique sed mi a, congue tristique felis. In elementum ex quis nisl congue iaculis. 
-        </p>
+        <div className='competences-list'>
+              <Icon className='react' size='massive' />
+              <Icon className='css3 alternate' size='massive' />
+              <Icon className='js' size='massive' />
+              <Icon className='node' size='massive' />
+              <Icon className='css3 alternate' size='massive' />
+        </div>
       </div>
     </div>
   )
