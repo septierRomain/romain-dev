@@ -1,1 +1,11 @@
 @import '../../Styles/_vars';
+
+#portfolio-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+}
+
+#portfolio-card a {
+  padding: 1vh;
+}

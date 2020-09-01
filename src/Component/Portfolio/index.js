@@ -7,12 +7,12 @@ function Portfolio() {
     <div id='portfolio'>
       <div className='content'>
         <h1 className='titre'>
-          Je suis le suis portfolio
+          Mes realisations
         </h1>
         <hr />
         <div id='portfolio-card'>
-          <a href='https://determined-perlman-ef7595.netlify.app/' target='blank'>Kalees</a>
-          <a href='https://eloquent-edison-81ade5.netlify.app/' target='blank'>Pokedex</a>
+          <a href='https://kalees.netlify.app/' target='blank'>Kalees</a>
+          <a href='https://eloquent-edison-pokedex.netlify.app/' target='blank'>Pokedex</a>
         </div>
       </div>
     </div>

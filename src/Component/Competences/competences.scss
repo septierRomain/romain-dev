@@ -2,10 +2,19 @@
 
 .competences-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1vw;
   color: $navbar-bg-color;
+  flex-wrap: wrap;
 }
 .content p {
   color: grey;
+  padding-bottom: 5vh;
+}
+.competences-list i.icon {
+  font-size: 10vw!important;
+  // padding: 1.3em!important;
+}
+#competences {
+  background-image: url('https://unsplash.com/photos/q10VITrVYUM');
 }

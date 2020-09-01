@@ -18,11 +18,11 @@ function Competences() {
           Etiam mattis tristique semper. Quisque quis scelerisque ante, quis accumsan augue. Integer id dignissim mauris. Etiam vel lectus tempus, consequat nisl vel, consequat orci. Sed viverra dui nec libero porta eleifend. Pellentesque ullamcorper pharetra nunc eu porta. Curabitur magna lectus, cursus id nunc a, aliquet mollis felis.
         </p>
         <div className='competences-list'>
-              <Icon className='react' size='massive' />
-              <Icon className='css3 alternate' size='massive' />
-              <Icon className='js' size='massive' />
-              <Icon className='node' size='massive' />
-              <Icon className='css3 alternate' size='massive' />
+              <Icon className='react' />
+              <Icon className='css3 alternate' />
+              <Icon className='js' />
+              <Icon className='node' />
+              <Icon className='css3 alternate' />
         </div>
       </div>
     </div>
