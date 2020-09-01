@@ -1,1 +1,12 @@
 @import '../../Styles/vars';
+
+#reseaux {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 3vh;
+}
+.content p {
+  padding: 3vh 0;
+}

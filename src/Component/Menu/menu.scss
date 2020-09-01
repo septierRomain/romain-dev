@@ -12,10 +12,10 @@
 }
 #Menu a{
   color: $navbar-title-color;
-  transition-duration: 800ms;
+  transition-duration: 300ms;
 }
 #Menu a:hover{
-  font-size: 1.2em;
+  letter-spacing: 0.1em;
 }
 
 label{

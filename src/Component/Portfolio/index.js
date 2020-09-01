@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+
 import './portfolio.scss'
 
 function Portfolio() {
@@ -10,7 +11,7 @@ function Portfolio() {
         </h1>
         <hr />
         <div id='portfolio-card'>
-          
+          <a href='https://determined-perlman-ef7595.netlify.app/' target='blank'>Kalees</a>
         </div>
       </div>
     </div>
