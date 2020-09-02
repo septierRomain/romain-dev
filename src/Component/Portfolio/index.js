@@ -3,6 +3,11 @@ import { Card, Icon } from 'semantic-ui-react'
 
 import './portfolio.scss'
 
+// Pictures
+import kalees from '../../assets/kalees.JPG'
+import pokedex from '../../assets/pokedex.JPG'
+import instalike from '../../assets/instalike.JPG'
+
 function Portfolio() {
   return(
     <div id='portfolio'>
@@ -31,7 +36,7 @@ function Portfolio() {
               </Card.Content>
             </Card>
             <a href='https://kalees.netlify.app/' target='blank'>
-              <img src='https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60' alt='project'/>
+              <img src={kalees} alt='project'/>
             </a>
           </div>
           <div className='project-content'>
@@ -56,7 +61,7 @@ function Portfolio() {
               </Card.Content>
             </Card>
             <a href='https://eloquent-edison-pokedex.netlify.app/' target='blank'>
-              <img src='https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60' alt='project'/>
+              <img src={pokedex} alt='project'/>
             </a>
           </div>
           <div className='project-content'>
@@ -83,7 +88,7 @@ function Portfolio() {
                 </a>
               </Card.Content>
             </Card>
-            <img src='https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60' alt='project'/>
+            <img src={instalike} alt='project'/>
           </div>
         </div>
       </div>

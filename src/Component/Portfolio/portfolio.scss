@@ -1,15 +1,37 @@
 @import '../../Styles/_vars';
 
+@media only screen and (max-width: 700px) {
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .project-card {
+    width: 100%!important;
+    margin-bottom: 1em!important;
+  }
+  .project-content img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 701px) {
+  .project-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4vh;
+  }
+  .project-content img {
+    width: 35vw;
+    height: 45vh;
+  }
+}
+
 #portfolio-cards {
   display: flex;
   flex-direction: column;
   padding: 4vh 0;
 }
-.project-content {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 4vh;
-}
+
 .project-content img {
   box-shadow: 10px 5px 5px grey;
   border-radius: 1em;
