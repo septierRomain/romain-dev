@@ -1,30 +1,6 @@
 @import '../../Styles/_vars';
 
-@media only screen and (max-width: 700px) {
-  .project-content {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  .project-card {
-    width: 100%!important;
-    margin-bottom: 1em!important;
-  }
-  .project-content img {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 701px) {
-  .project-content {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 4vh;
-  }
-  .project-content img {
-    width: 35vw;
-    height: 45vh;
-  }
-}
+// All queries
 
 #portfolio-cards {
   display: flex;
@@ -58,6 +34,38 @@
 #portfolio .titre {
   padding-top: 5vh;
 }
-.project-card {
-  width: 20vw!important;
+
+// Responsive queries
+
+// Pour smartphone
+@media only screen and (max-width: 700px) {
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+  }
+  .project-card {
+    width: 100%!important;
+  }
+  .project-content img {
+    width: 100%;
+    margin-top: 2vh;
+  }
 }
+
+// Pour desktop
+@media only screen and (min-width: 701px) {
+  .project-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4vh;
+  }
+  .project-content img {
+    width: 35vw;
+    height: 45vh;
+  }
+  .project-card {
+    width: 20vw!important;
+  }
+}
+
