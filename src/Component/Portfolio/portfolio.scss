@@ -3,20 +3,22 @@
 #portfolio-cards {
   display: flex;
   flex-direction: column;
-  padding: 2vh;
-}
-
-#portfolio-cards a {
-  padding: 1vh;
+  padding: 4vh 0;
 }
 .project-content {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
+}
+.project-content img {
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 1em;
 }
 .ui.card {
   background: $navbar-bg-color!important;
-  margin: 0!important
+  margin: 0!important;
+  box-shadow: 10px 5px 5px grey!important;
+  border-radius: 1em!important;
 }
 .header, .extra {
   color: white!important;
@@ -25,4 +27,14 @@
 .description {
   color: grey!important;
   font-size: 1.5vh!important;
+}
+.techno {
+  color: whitesmoke;
+  padding: 0.5vh 0;
+}
+#portfolio .titre {
+  padding-top: 5vh;
+}
+.project-card {
+  width: 40%!important;
 }
