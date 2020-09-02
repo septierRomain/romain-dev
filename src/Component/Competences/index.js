@@ -22,7 +22,7 @@ function Competences() {
               <Icon className='css3 alternate' />
               <Icon className='js' />
               <Icon className='node' />
-              <Icon className='css3 alternate' />
+              <Icon className='git' />
         </div>
       </div>
     </div>

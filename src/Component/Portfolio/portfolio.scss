@@ -9,3 +9,16 @@
 #portfolio-card a {
   padding: 1vh;
 }
+.project-card {
+  background: antiquewhite;
+  width: 40%;
+}
+.project-card img {
+  border-style: none;
+  width: 30%;
+}
+.project-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2vh;
+}
