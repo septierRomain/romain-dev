@@ -6,7 +6,7 @@ import './menu.scss'
 function Menu() {
   return(
     <div id='Nav'>
-      <label for="toggle">&#9776;</label>
+      <label htmlFor="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
       <div id="Menu">
         <li className='MenuLink'>
