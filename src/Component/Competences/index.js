@@ -6,7 +6,7 @@ import './competences.scss'
 function Competences() {
   return(
     <div id="competences">
-      <div className='content'>
+      <div className='contents'>
         <h1 className='titre'>
           Compétences
         </h1>

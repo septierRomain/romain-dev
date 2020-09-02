@@ -16,7 +16,7 @@
   position: relative;
   padding: 0.1em 0;
 }
-#Menu a::before, a::after{
+.MenuLink > a::before, a::after{
   content: '';
   position: absolute;
   width: 0;
@@ -24,14 +24,14 @@
   background: white;
   transition: 400ms ease-in-out;
 }
-#Menu a:hover::before, a:hover::after{
+.MenuLink > a:hover::before, .MenuLink > a:hover::after{
   width: 100%;
 }
-#Menu a::after{
+.MenuLink > a::after{
   bottom: 0;
   right: 0;
 }
-#Menu a::before{
+.MenuLink > a::before{
   top: 0;
   left: 0;
 }

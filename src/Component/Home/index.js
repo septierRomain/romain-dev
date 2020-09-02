@@ -6,7 +6,7 @@ import './home.scss'
 function Home() {
   return(
     <div id='Home'>
-      <div className='content'>
+      <div className='contents'>
         <h1 className='titre'>
           Presentation
         </h1>

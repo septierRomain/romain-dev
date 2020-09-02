@@ -1,24 +1,28 @@
 @import '../../Styles/_vars';
 
-#portfolio-card {
+#portfolio-cards {
   display: flex;
   flex-direction: column;
   padding: 2vh;
 }
 
-#portfolio-card a {
+#portfolio-cards a {
   padding: 1vh;
-}
-.project-card {
-  background: antiquewhite;
-  width: 40%;
-}
-.project-card img {
-  border-style: none;
-  width: 30%;
 }
 .project-content {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 2vh;
+}
+.ui.card {
+  background: $navbar-bg-color!important;
+  margin: 0!important
+}
+.header, .extra {
+  color: white!important;
+  font-size: 2vh!important;
+} 
+.description {
+  color: grey!important;
+  font-size: 1.5vh!important;
 }
