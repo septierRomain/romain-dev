@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './App.scss';
@@ -12,8 +12,17 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 
 function App() {
+
+  const [ darkTheme, setDarkTheme ] = useState(false)
+
   return (
-    <div id="App">
+    <div id="App"
+    className={
+      darkTheme ?
+      'darkTheme' :
+      ''
+    }
+    >
       <BrowserRouter>
         <Menu />
         <Switch>

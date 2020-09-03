@@ -12,6 +12,11 @@ li {
   justify-content: space-between;
 }
 
+.darkTheme {
+  background-color: black;
+  color: white
+}
+
 @media only screen and (max-width: 999px) {
   #App {
     background-image: url("../../assets/splash-low.png");
