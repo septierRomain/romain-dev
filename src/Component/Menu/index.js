@@ -20,7 +20,7 @@ function Menu() {
       ''
     }
     >
-      <label 
+      {/* <label 
         htmlFor="toggle"
         onClick={()=>setActive(!active)}
       >
@@ -29,7 +29,7 @@ function Menu() {
       <input 
       type="checkbox"
       id="toggle"
-      />
+      /> */}
       <div id="Menu"       
       className={
         active ?
