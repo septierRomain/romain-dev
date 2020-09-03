@@ -7,7 +7,13 @@ function Contact() {
   const {darkTheme} = useContext(ThemeContext)
 
   return(
-    <div id='contact'>
+    <div 
+      id='Contact'
+      className={
+        darkTheme ?
+        'darkTheme' :
+        ''}
+    >
       <div className='contents'>
         <h1 className='titre'>
           Contactez moi !

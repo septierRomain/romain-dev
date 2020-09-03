@@ -8,17 +8,16 @@
   flex-wrap: wrap;
 }
 .contents p {
-  color: grey;
   padding-bottom: 5vh;
 }
 .competences-list i.icon {
   font-size: 5vw!important;
-  // padding: 1.3em!important;
-}
-#competences {
-  background-image: url('https://unsplash.com/photos/q10VITrVYUM');
 }
 .competences-list .darkTheme {
   color: white;
   background: transparent;
+  transition-duration: 2000ms;
+}
+.competences-list i {
+  transition-duration: 2000ms;
 }

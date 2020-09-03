@@ -10,32 +10,26 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition-duration: 900ms;
 }
 
 .darkTheme {
   background-color: black;
   color: white;
-  transition-duration: 900ms;
-}
-.darkTheme {
-  background-color: black;
-  color: white;
-}
-.lightTheme {
-  background-color: white;
-  color: black
 }
 
 @media only screen and (max-width: 999px) {
-  #App {
+  #Portfolio, #Home, #Competences, #Contact {
     background-image: url("../../assets/splash-low.png");
     background-size: cover;
   }
 }
 @media only screen and (min-width: 1000px) {
-  #App {
+  #Portfolio, #Home, #Competences, #Contact {
     background-image: url("../../assets/splash-light.png");
     background-size: cover;
+  }
+  #Home, #Competences, #Contact {
+    height: 100%;
+    display: flex;
   }
 }

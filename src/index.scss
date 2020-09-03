@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,9 +12,10 @@ code {
     monospace;
 }
 
-#Home, #competences, #portfolio, #contact {
+#Home, #Competences, #Portfolio, #Contact {
   width: 100%;
   text-align: center;
+  transition-duration: 2000ms;
 }
 .contents {
   width: 75%;
@@ -40,6 +40,11 @@ hr:hover{
   padding-bottom: 3vh;
 }
 .contents p {
-  font-size: 2vmin;
+  font-size: 2.5vmin;
   padding-top: 2vh;
+  color: #557089;
+  transition-duration: 2000ms;
+}
+.darkTheme .contents p {
+  color: lightgrey;
 }

@@ -9,7 +9,13 @@ function Competences() {
   const {darkTheme} = useContext(ThemeContext)
 
   return(
-    <div id="competences">
+    <div 
+    id="Competences"
+    className={
+      darkTheme ?
+      'darkTheme' :
+      ''}
+    >
       <div className='contents'>
         <h1 className='titre'>
           Compétences

@@ -21,11 +21,11 @@ function App() {
 
   return (
     <div id="App"
-    className={
-      darkTheme ?
-      'darkTheme' :
-      ''
-    }
+    // className={
+    //   darkTheme ?
+    //   'darkTheme' :
+    //   ''
+    // }
     >
       <BrowserRouter>
         <ThemeContext.Provider value={{darkTheme, setDarkTheme}}>

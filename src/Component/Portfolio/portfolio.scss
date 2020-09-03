@@ -2,8 +2,6 @@
 
 // All queries
 
-
-
 #portfolio-cards {
   display: flex;
   flex-direction: column;
@@ -22,7 +20,7 @@
   border-radius: 1em!important;
 }
 .ui.card.project-card.darkTheme,.darkTheme img {
-  box-shadow: 10px 5px 5px black!important;
+  box-shadow: 10px 5px 5px lightslategray!important;
 }
 .header, .extra {
   color: white!important;
@@ -37,7 +35,7 @@
   padding: 0.5vh 0;
   font-size: 1.2vw
 }
-#portfolio .titre {
+#Portfolio .titre {
   padding-top: 5vh;
 }
 
@@ -56,10 +54,6 @@
   .project-content img {
     width: 100%;
     margin-top: 2vh;
-  }
-  #Portfolio {
-    background-image: url("../../assets/splash-low.png");
-    background-size: cover;
   }
 }
 
@@ -86,9 +80,6 @@
   }
   .project-card {
     width: 20vw!important;
-  }
-  #portfolio {
-    background-image: url("../../assets/splash-light.png");
   }
 }
 

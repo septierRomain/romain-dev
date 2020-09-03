@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Icon } from 'semantic-ui-react'
 
 import './home.scss'
+import ThemeContext from '../../Context/ThemeContext'
 
 function Home() {
+
+  const {darkTheme} = useContext(ThemeContext)
+
   return(
-    <div id='Home'>
+    <div
+      id='Home'
+      className={
+      darkTheme ?
+      'darkTheme' :
+      ''}
+    >
       <div className='contents'>
         <h1 className='titre'>
           Presentation

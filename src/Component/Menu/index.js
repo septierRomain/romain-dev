@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import {Icon, Button} from 'semantic-ui-react'
+import {Icon} from 'semantic-ui-react'
 
 // Style
 import './menu.scss'
@@ -18,7 +18,7 @@ function Menu() {
       <input type="checkbox" id="toggle" />
       <div id="Menu">
       <Icon
-      color={darkTheme ? 'white' : 'black'}
+      color={darkTheme ? '' : 'black'}
       name={darkTheme ? 'sun' : 'moon'}
       onClick={()=>setDarkTheme(!darkTheme)}
       />

@@ -14,7 +14,13 @@ function Portfolio() {
   const {darkTheme} = useContext(ThemeContext)
 
   return(
-    <div id='portfolio'>
+    <div
+      id='Portfolio'
+      className={
+      darkTheme ?
+      'darkTheme' :
+      ''}
+    >
       <div className='contents'>
         <h1 className='titre'>
           Mes realisations
