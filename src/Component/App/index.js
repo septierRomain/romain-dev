@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
+// Style
 import './App.scss';
+
+// Context
+import {ThemeContext} from '../../Context/ThemeContext'
 
 //Composant
 import Menu from '../Menu'
@@ -24,22 +28,24 @@ function App() {
     }
     >
       <BrowserRouter>
-        <Menu />
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/competences'>
-            <Competences />
-          </Route>
-          <Route exact path='/portfolio'>
-            <Portfolio />
-          </Route>
-          <Route exact path='/contact'>
-            <Contact />
-          </Route>
-        </Switch>
-        <Footer />
+        <ThemeContext.Provider value={{darkTheme, setDarkTheme}}>
+          <Menu />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route exact path='/competences'>
+              <Competences />
+            </Route>
+            <Route exact path='/portfolio'>
+              <Portfolio />
+            </Route>
+            <Route exact path='/contact'>
+              <Contact />
+            </Route>
+          </Switch>
+          <Footer />
+        </ThemeContext.Provider>
       </BrowserRouter>
     </div>
   );
