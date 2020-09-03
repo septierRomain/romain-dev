@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Card, Icon } from 'semantic-ui-react'
 
 import './portfolio.scss'
@@ -7,8 +7,12 @@ import './portfolio.scss'
 import kalees from '../../assets/kalees.JPG'
 import pokedex from '../../assets/pokedex.JPG'
 import instalike from '../../assets/instalike.JPG'
+import ThemeContext from '../../Context/ThemeContext'
 
 function Portfolio() {
+
+  const {darkTheme} = useContext(ThemeContext)
+
   return(
     <div id='portfolio'>
       <div className='contents'>
@@ -18,7 +22,8 @@ function Portfolio() {
         <hr />
         <div id='portfolio-cards'>
           <div className='project-content'>
-            <Card className='project-card'>
+            <Card className={darkTheme ? 'project-card darkTheme':
+            'project-card'}>
               <Card.Content header='Kalees' />
               <Card.Content description='Site vitrine dun artiste peintre/graffeur.' />
               <Card.Content extra>
@@ -40,7 +45,8 @@ function Portfolio() {
             </a>
           </div>
           <div className='project-content'>
-          <Card className='project-card'>
+          <Card className={darkTheme ? 'project-card darkTheme':
+            'project-card'}>
               <Card.Content header='Pokedex' />
               <Card.Content description='Creation dun pokedex via des requetes a une api.' />
               <Card.Content extra>
@@ -65,7 +71,8 @@ function Portfolio() {
             </a>
           </div>
           <div className='project-content'>
-          <Card className='project-card'>
+          <Card className={darkTheme ? 'project-card darkTheme':
+            'project-card'}>
               <Card.Content header='Clone instagram' />
               <Card.Content description='Clone du celebre reseau social instagram.' />
               <Card.Content extra>

@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Icon } from 'semantic-ui-react'
 
 import './competences.scss'
+import ThemeContext from '../../Context/ThemeContext'
 
 function Competences() {
+
+  const {darkTheme} = useContext(ThemeContext)
+
   return(
     <div id="competences">
       <div className='contents'>
@@ -18,11 +22,31 @@ function Competences() {
           Etiam mattis tristique semper. Quisque quis scelerisque ante, quis accumsan augue. Integer id dignissim mauris. Etiam vel lectus tempus, consequat nisl vel, consequat orci. Sed viverra dui nec libero porta eleifend. Pellentesque ullamcorper pharetra nunc eu porta. Curabitur magna lectus, cursus id nunc a, aliquet mollis felis.
         </p>
         <div className='competences-list'>
-              <Icon className='react' />
-              <Icon className='css3 alternate' />
-              <Icon className='js' />
-              <Icon className='node' />
-              <Icon className='git' />
+              <Icon className={
+                darkTheme ?
+                'react darkTheme' :
+                'react'
+              } />
+              <Icon className={
+                darkTheme ?
+                'css3 alternate darkTheme' :
+                'css3 alternate'
+              } />
+              <Icon className={
+                darkTheme ?
+                'js darkTheme' :
+                'js'
+              } />
+              <Icon className={
+                darkTheme ?
+                'node darkTheme' :
+                'node'
+              } />
+              <Icon className={
+                darkTheme ?
+                'git darkTheme' :
+                'git'
+              } />
         </div>
       </div>
     </div>

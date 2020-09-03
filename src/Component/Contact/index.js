@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './contact.scss'
+import ThemeContext from '../../Context/ThemeContext';
 
 function Contact() {
+
+  const {darkTheme} = useContext(ThemeContext)
+
   return(
     <div id='contact'>
       <div className='contents'>
@@ -12,7 +16,13 @@ function Contact() {
         <p>
           Un projet, une question ou simplement echanger autour d'un verre ? N'hesitez pas a me contacter.
         </p>
-        <a href='mailto:septier.romain@protonmail.com'>septier.romain@protonmail.com</a>
+        <div 
+        className={darkTheme ?
+          'darkLink' : 
+          ''
+        }>
+          <a href='mailto:septier.romain@protonmail.com'>septier.romain@protonmail.com</a>
+        </div>
       </div>
     </div>
   )

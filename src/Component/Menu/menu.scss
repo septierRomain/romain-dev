@@ -16,6 +16,9 @@
   position: relative;
   padding: 0.1em 0;
 }
+#Nav i {
+  cursor: pointer;
+}
 .MenuLink > a::before, a::after{
   content: '';
   position: absolute;
