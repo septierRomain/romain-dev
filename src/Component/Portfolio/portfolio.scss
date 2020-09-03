@@ -21,6 +21,9 @@
   box-shadow: 10px 5px 5px grey!important;
   border-radius: 1em!important;
 }
+.ui.card.project-card.darkTheme,.darkTheme img {
+  box-shadow: 10px 5px 5px black!important;
+}
 .header, .extra {
   color: white!important;
   font-size: 2vh!important;
