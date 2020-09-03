@@ -14,22 +14,16 @@ function Menu() {
   const [ active, setActive ] = useState(false)
 
   return(
-    <div id='Nav' className={
-      darkTheme ?
-      'labelWhite' : 
-      ''
-    }
-    >
-      {/* <label 
-        htmlFor="toggle"
-        onClick={()=>setActive(!active)}
-      >
+    <div id='Nav'>
+      <button
+      className={
+        darkTheme ?
+        'labelWhite' : 
+        ''
+      }
+      onClick={()=>setActive(!active)}>
         &#9776;
-      </label>
-      <input 
-      type="checkbox"
-      id="toggle"
-      /> */}
+      </button>
       <div id="Menu"       
       className={
         active ?
@@ -39,7 +33,9 @@ function Menu() {
       <Icon
         color={darkTheme ? 'yellow' : 'black'}
         name={darkTheme ? 'sun' : 'moon'}
-        onClick={()=>setDarkTheme(!darkTheme)}
+        onClick={
+          ()=>setDarkTheme(!darkTheme)
+        }
       />
         <li className='MenuLink' onClick={()=>setActive(!active)}>
           <Link to='/'>Home</Link>
