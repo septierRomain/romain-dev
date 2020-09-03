@@ -10,11 +10,13 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition-duration: 900ms;
 }
 
 .darkTheme {
   background-color: black;
-  color: white
+  color: white;
+  transition-duration: 900ms;
 }
 
 @media only screen and (max-width: 999px) {
