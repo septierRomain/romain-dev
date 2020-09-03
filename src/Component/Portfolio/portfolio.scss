@@ -2,6 +2,8 @@
 
 // All queries
 
+
+
 #portfolio-cards {
   display: flex;
   flex-direction: column;
@@ -52,6 +54,10 @@
     width: 100%;
     margin-top: 2vh;
   }
+  #Portfolio {
+    background-image: url("../../assets/splash-low.png");
+    background-size: cover;
+  }
 }
 
 // // Pour tablette
@@ -77,6 +83,9 @@
   }
   .project-card {
     width: 20vw!important;
+  }
+  #portfolio {
+    background-image: url("../../assets/splash-light.png");
   }
 }
 
