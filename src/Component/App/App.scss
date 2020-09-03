@@ -11,6 +11,14 @@ li {
   flex-direction: column;
   justify-content: space-between;
 }
+.darkTheme {
+  background-color: black;
+  color: white;
+}
+.lightTheme {
+  background-color: white;
+  color: black
+}
 
 @media only screen and (max-width: 999px) {
   #App {

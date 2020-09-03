@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './App.scss';
@@ -12,26 +12,35 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 
 function App() {
+
+  const [ dark, setDark ] = useState(false)
+
   return (
-    <div id="App">
-      <BrowserRouter>
-        <Menu />
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/competences'>
-            <Competences />
-          </Route>
-          <Route exact path='/portfolio'>
-            <Portfolio />
-          </Route>
-          <Route exact path='/contact'>
-            <Contact />
-          </Route>
-        </Switch>
-        <Footer />
-      </BrowserRouter>
+    <div
+     id='App'
+     className={
+       dark ?
+       'darkTheme' :
+       'lightTheme'
+    }>
+          <BrowserRouter>
+            <Menu />
+            <Switch>
+              <Route exact path='/'>
+                <Home />
+              </Route>
+              <Route exact path='/competences'>
+                <Competences />
+              </Route>
+              <Route exact path='/portfolio'>
+                <Portfolio />
+              </Route>
+              <Route exact path='/contact'>
+                <Contact />
+              </Route>
+            </Switch>
+            <Footer />
+          </BrowserRouter>
     </div>
   );
 }
