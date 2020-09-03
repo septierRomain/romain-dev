@@ -13,7 +13,12 @@ function Menu() {
   const {darkTheme, setDarkTheme} = useContext(ThemeContext)
 
   return(
-    <div id='Nav'>
+    <div id='Nav' className={
+      darkTheme ?
+      'labelWhite' : 
+      ''
+    }
+    >
       <label htmlFor="toggle">&#9776;</label>
       <input type="checkbox" id="toggle" />
       <div id="Menu">
