@@ -86,4 +86,7 @@ label{
     position: fixed;
     z-index: 2;
   }
+  #Menu .inactive {
+    display: none!important;
+  }
 }
