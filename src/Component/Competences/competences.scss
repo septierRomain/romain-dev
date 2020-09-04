@@ -2,10 +2,13 @@
 
 .competences-list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 1vw;
   color: $navbar-bg-color;
-  flex-wrap: wrap;
+}
+.competences-icon {
+  display: flex;
+  justify-content: space-between;
 }
 .contents p {
   padding-bottom: 5vh;

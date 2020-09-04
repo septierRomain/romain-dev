@@ -1,8 +1,15 @@
 import React, { useContext } from 'react'
 import { Icon } from 'semantic-ui-react'
 
+// Style
 import './competences.scss'
+
+// Context
 import ThemeContext from '../../Context/ThemeContext'
+
+// Image
+import photoshop from '../../assets/adobe-photoshop.png'
+import mongo from '../../assets/mongodb.png'
 
 function Competences() {
 
@@ -28,6 +35,7 @@ function Competences() {
           Etiam mattis tristique semper. Quisque quis scelerisque ante, quis accumsan augue. Integer id dignissim mauris. Etiam vel lectus tempus, consequat nisl vel, consequat orci. Sed viverra dui nec libero porta eleifend. Pellentesque ullamcorper pharetra nunc eu porta. Curabitur magna lectus, cursus id nunc a, aliquet mollis felis.
         </p>
         <div className='competences-list'>
+          <div className='competences-icon'>
               <Icon className={
                 darkTheme ?
                 'react darkTheme' :
@@ -53,6 +61,11 @@ function Competences() {
                 'git darkTheme' :
                 'git'
               } />
+          </div>
+          {/* <div className='competences-pix'>
+            <img src={photoshop} alt='photoshop'/>
+            <img src={mongo} alt='mongodb'/>
+          </div> */}
         </div>
       </div>
     </div>
