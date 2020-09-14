@@ -8,8 +8,8 @@ import './competences.scss'
 import ThemeContext from '../../Context/ThemeContext'
 
 // Image
-import photoshop from '../../assets/adobe-photoshop.png'
-import mongo from '../../assets/mongodb.png'
+// import photoshop from '../../assets/adobe-photoshop.png'
+// import mongo from '../../assets/mongodb.png'
 
 function Competences() {
 

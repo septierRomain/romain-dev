@@ -41,6 +41,12 @@ function Home() {
                 <Icon className='linkedin' size='massive' />
               </a>
           </div>
+          <div id='sandbox'>
+            <h2>Mes sandbox</h2>
+              <a href='https://codesandbox.io/u/Gizmo675' target='blank'>
+                <Icon className='code' size='massive' />
+              </a>
+          </div>
         </div>
       </div>
     </div>
