@@ -31,9 +31,24 @@ function Competences() {
         <p>    
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elit scelerisque, molestie purus ut, eleifend magna. Maecenas rutrum viverra turpis, eget vestibulum justo rhoncus eu. Suspendisse ac condimentum est, feugiat volutpat sapien. Donec at tellus velit. Maecenas gravida nulla a porta congue. Cras sit amet lectus pharetra diam mollis aliquet ut sit amet elit. Nam eu magna ac metus imperdiet rutrum.
         </p>
-        <p>
-          Etiam mattis tristique semper. Quisque quis scelerisque ante, quis accumsan augue. Integer id dignissim mauris. Etiam vel lectus tempus, consequat nisl vel, consequat orci. Sed viverra dui nec libero porta eleifend. Pellentesque ullamcorper pharetra nunc eu porta. Curabitur magna lectus, cursus id nunc a, aliquet mollis felis.
-        </p>
+        <hr />
+        <div id='softskills'>
+          <p>Quelques particularités de ma personnalité, je suis a la fois :</p>
+          <ul>
+            <li>
+              Organisé
+            </li>
+            <li>
+              Rigoureux
+            </li>
+            <li>
+              Curieux
+            </li>
+            <li>
+              A l'ecoute
+            </li>
+          </ul>
+        </div>
         <div className='competences-list'>
           <div className='competences-icon'>
               <Icon className={
@@ -62,10 +77,6 @@ function Competences() {
                 'git'
               } />
           </div>
-          {/* <div className='competences-pix'>
-            <img src={photoshop} alt='photoshop'/>
-            <img src={mongo} alt='mongodb'/>
-          </div> */}
         </div>
       </div>
     </div>
