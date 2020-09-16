@@ -9,8 +9,8 @@ function Instalike () {
   const {darkTheme} = useContext(ThemeContext)
 
   const extra = (
-    <div>
-      <div>
+    <div className='extra'>
+      <div className='techno'>
         <Label>
           ReactJS
         </Label>
@@ -24,7 +24,7 @@ function Instalike () {
           MongoDB
         </Label>
       </div>
-      <div>
+      <div className='seeMore'>
         <a href='https://github.com/Gizmo675/InstaLike' target='blank'>
           <Icon name='github' />
         </a>
@@ -38,7 +38,7 @@ function Instalike () {
   )
 
   return (
-    <div className="project-content" style={{ position: 'relative' }}>
+    <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
         image={insta}

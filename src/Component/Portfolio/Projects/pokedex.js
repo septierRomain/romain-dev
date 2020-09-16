@@ -9,8 +9,8 @@ function Pokedex () {
   const {darkTheme} = useContext(ThemeContext)
 
   const extra = (
-    <div>
-      <div>
+    <div className='extra'>
+      <div className='techno'>
         <Label>
           ReactJS
         </Label>
@@ -21,7 +21,7 @@ function Pokedex () {
           API
         </Label>
       </div>
-      <div>
+      <div className='seeMore'>
         <a href='https://github.com/Gizmo675/pokedex' target='blank'>
           <Icon name='github' />
         </a>

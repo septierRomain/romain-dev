@@ -35,7 +35,11 @@
   #portfolio-cards {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 4vh 0;
+  }
+  .ui.card.project-card {
+    width: 20vw;
   }
 }
 

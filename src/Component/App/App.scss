@@ -68,7 +68,7 @@ hr:hover{
     background-image: url("../../assets/splash-very-low.png");
     background-size: cover;
   }
-  #Home, #Competences, #Contact, #notFound, #Portfolio {
+  #Home, #Competences, #Contact, #notFound {
     height: 100%;
     display: flex;
   }
@@ -79,7 +79,6 @@ hr:hover{
     background-size: cover;
   }
   #Home, #Competences, #Contact, #notFound, #Portfolio {
-    height: 100%;
-    display: flex;
+    flex: 1 0 auto;
   }
 }
