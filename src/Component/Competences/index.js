@@ -60,7 +60,6 @@ function Competences() {
         <div className='competences-list'>
           <div className='competences-icon'>
               {/* <SvgAdobephotoshop /> */}
-
               <SvgCss3 />
               <SvgGit />
               <SvgJavascript />

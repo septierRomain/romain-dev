@@ -11,6 +11,7 @@ import Kalees from './Projects/kalees';
 import Instalike from './Projects/instalike';
 import Pokedex from './Projects/pokedex';
 import MyPortfolio from './Projects/portfolio';
+import TripPlanner from './Projects/tripPlanner';
 
 function Portfolio() {
 
@@ -33,6 +34,7 @@ function Portfolio() {
           <Kalees />
           <Instalike />
           <MyPortfolio />
+          <TripPlanner />
           <Pokedex />
         </div>
       </div>
