@@ -14,6 +14,7 @@ import Footer from '../Footer'
 import Competences from '../Competences';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
+import NotFound from '../404';
 
 function App() {
 
@@ -43,6 +44,8 @@ function App() {
             <Route exact path='/contact'>
               <Contact />
             </Route>
+            {/* Fallback - gestion de 404 */}
+            <Route component={NotFound} />
           </Switch>
           <Footer />
         </ThemeContext.Provider>

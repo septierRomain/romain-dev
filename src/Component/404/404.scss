@@ -1,0 +1,9 @@
+@import '../../Styles/_vars';
+
+#notFound {
+  background-image: url('../../assets/notfound.jpg');
+  background-size: cover;
+}
+#notFound p {
+  color: black;
+}
