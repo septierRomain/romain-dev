@@ -19,12 +19,10 @@
 .competences-list i.icon {
   font-size: 5vw!important;
 }
-.competences-list .darkTheme {
+.darkTheme .competences-icon {
   color: $alt-font-color;
-  background: transparent;
-  transition-duration: 2000ms;
 }
-.competences-list i {
+.skills-list li, .competences-icon {
   transition-duration: 2000ms;
 }
 #softskills li {

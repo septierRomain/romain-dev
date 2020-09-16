@@ -41,7 +41,7 @@ function Competences() {
           J'ai eu la chance d'avoir plusieurs vies pro. Tantot comptable en cabinet d'expertise comptable puis ensuite directeur de course sur un circuit automobile. J'ai desormais allié ma passion et mon metier. 
         </p>
         <hr />
-        <div id='softskills'>
+        <div id='softskills' className="skills-list">
           <p>Quelques particularités de ma personnalité, je suis a la fois :</p>
           <ul>
             <li>
