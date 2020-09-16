@@ -43,7 +43,7 @@ function Pokedex () {
         extra={extra}
         data-tip="Pokedex"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"0"}}>
+      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
         Pokedex
       </Label>
     </div>

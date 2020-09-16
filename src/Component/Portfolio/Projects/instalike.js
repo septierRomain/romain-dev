@@ -46,7 +46,7 @@ function Instalike () {
         extra={extra}
         data-tip="Insta"
       />
-      <Label as="a" color="red" ribbon style={{ position: 'absolute', top:'0' }}>
+      <Label as="a" color="red" ribbon style={{ position: 'absolute', top:'1em' }}>
         Insta
       </Label>
     </div>

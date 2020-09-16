@@ -41,7 +41,7 @@ function Kalees () {
         extra={extra}
         data-tip="Kalees"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"0"}}>
+      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
         Kalees
       </Label>
     </div>

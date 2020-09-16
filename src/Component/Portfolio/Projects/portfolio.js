@@ -44,7 +44,7 @@ function MyPortfolio () {
         extra={extra}
         data-tip="Portfolio"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"0"}}>
+      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
         Portfolio
       </Label>
     </div>
