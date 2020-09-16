@@ -29,7 +29,10 @@ function Competences() {
         </h1>
         <hr />
         <p>    
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elit scelerisque, molestie purus ut, eleifend magna. Maecenas rutrum viverra turpis, eget vestibulum justo rhoncus eu. Suspendisse ac condimentum est, feugiat volutpat sapien. Donec at tellus velit. Maecenas gravida nulla a porta congue. Cras sit amet lectus pharetra diam mollis aliquet ut sit amet elit. Nam eu magna ac metus imperdiet rutrum.
+          Au cours de mon cursus de formation j'ai pu apprendre differentes competences que j'ai mis a profit dans divers langage de programmation et divers projets.
+          J'ai une preference toute particulier pour le front-end et de fait le Javascript qui est omnipresent. 
+          J'adore combiner la technique, la logique et le design. Le developpement web me permet de laisser libre court a ma creativité.
+          J'ai eu la chance d'avoir plusieurs vies pro. Tantot comptable en cabinet d'expertise comptable puis ensuite directeur de course sur un circuit automobile. J'ai desormais allié ma passion et mon metier. 
         </p>
         <hr />
         <div id='softskills'>

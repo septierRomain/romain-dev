@@ -1,7 +1,7 @@
 @import '../../Styles/_vars';
 
 #Contact a {
-  color: black;
+  color: $main-font-color;
   font-size: 2vmin;
   transition-duration: 800ms;
 }
@@ -9,5 +9,5 @@
   font-size: 3vh;
 }
 .darkLink a{
-  color: white!important
+  color: $alt-font-color!important
 }

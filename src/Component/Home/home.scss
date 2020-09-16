@@ -1,4 +1,5 @@
 @import '../../Styles/_vars';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Bangers&display=swap');
 
 #reseaux {
   width: 70%;
@@ -6,6 +7,13 @@
   justify-content: space-between;
   margin: auto;
   padding-top: 3vh;
+}
+#Home {
+  display: flex;
+  flex-direction: column;
+}
+#home-presentation hr {
+  width: 10%;
 }
 .contents, #softskills {
   padding: 3vh 0;
@@ -16,4 +24,16 @@
 }
 #reseaux h2 {
   font-size: 2.2vw;
+}
+#myself {
+  font-family: Lobster;
+  margin: 0 auto;
+  font-size: 3.5vw;
+}
+#myJob {
+  font-family: Bangers;
+  margin: 0 auto;
+  font-size: 3vw;
+  letter-spacing: 0.15em;
+  // color: $main-font-color;
 }

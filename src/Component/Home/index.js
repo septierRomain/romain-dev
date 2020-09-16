@@ -16,10 +16,19 @@ function Home() {
       'darkTheme' :
       ''}
     >
-      <div className='contents'>
-        <h1 className='titre'>
-          Presentation
+      <div id='home-presentation'>
+        <h1 id='myself'>
+          Septier Romain
         </h1>
+        <hr />
+        <h2 id='myJob'>
+          Developpeur Web
+        </h2>
+      </div>
+      <div className='contents'>
+        {/* <h1 className='titre'>
+          Presentation
+        </h1> */}
         <hr />
         <p>
           Je suis developpeur web diplomé depuis 2020 et photographe.

@@ -24,7 +24,7 @@
   position: absolute;
   width: 0;
   height: 0.1em;
-  background: white;
+  background: $main-color-bg;
   transition: 400ms ease-in-out;
 }
 .MenuLink > a:hover::before, .MenuLink > a:hover::after{
@@ -49,10 +49,10 @@
     font-size: 3vh;
   }
   #Nav .labelWhite {
-    color: white;
+    color: $alt-font-color;
   }
   #Nav button {
-    color: black;
+    color: $main-font-color;
     border: none;
     background: transparent;
     font-size: 2em;

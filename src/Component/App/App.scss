@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+@import '../../Styles/vars';
 
 li {
   list-style: none;
@@ -14,8 +15,52 @@ li {
 }
 
 .darkTheme {
-  background-color: black;
-  color: white;
+  background-color: $alt-color-bg;
+  color: $alt-font-color;
+}
+.darkTheme .contents p, .darkTheme .contents li {
+  color: $alt-font-color-contents;
+}
+.darkTheme .contents h1 {
+  color: $alt-title-color;
+}
+.contents p, #softskills {
+  font-size: 2.5vmin;
+  padding-top: 2vh;
+  color: $main-font-color;
+  transition-duration: 2000ms;
+  width: 75%;
+  margin: auto;
+}
+.contents h1 {
+  color: $main-title-color;
+}
+#Home, #Competences, #Portfolio, #Contact {
+  width: 100%;
+  text-align: center;
+  transition-duration: 2000ms;
+}
+.contents, #home-presentation {
+  width: 75%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+hr{
+  width: 50%;
+  transition-duration: 800ms;
+}
+hr:hover{
+  width: 100%;
+}
+
+.titre{
+  font-size: 5vmin;
+  padding-bottom: 3vh;
 }
 
 @media only screen and (max-width: 999px) {
