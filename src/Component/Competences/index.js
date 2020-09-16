@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-// import { Icon } from 'semantic-ui-react'
 
 // Style
 import './competences.scss'
@@ -60,32 +59,8 @@ function Competences() {
         </div>
         <div className='competences-list'>
           <div className='competences-icon'>
-              {/* <Icon className={
-                darkTheme ?
-                'react darkTheme' :
-                'react'
-              } />
-              <Icon className={
-                darkTheme ?
-                'css3 alternate darkTheme' :
-                'css3 alternate'
-              } />
-              <Icon className={
-                darkTheme ?
-                'js darkTheme' :
-                'js'
-              } />
-              <Icon className={
-                darkTheme ?
-                'node darkTheme' :
-                'node'
-              } />
-              <Icon className={
-                darkTheme ?
-                'git darkTheme' :
-                'git'
-              } /> */}
               {/* <SvgAdobephotoshop /> */}
+
               <SvgCss3 />
               <SvgGit />
               <SvgJavascript />

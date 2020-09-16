@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Icon, Label } from 'semantic-ui-react'
 
 import './portfolio.scss'
 
@@ -47,6 +47,9 @@ function Portfolio() {
               </Card.Content>
             </Card>
             <a href='https://kalees.netlify.app/' target='blank'>
+              {/* <Label as='a' color='red' ribbon>
+                Kalees
+              </Label> */}
               <img src={kalees} alt='project'/>
             </a>
           </div>
