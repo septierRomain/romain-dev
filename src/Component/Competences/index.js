@@ -1,15 +1,21 @@
 import React, { useContext } from 'react'
-import { Icon } from 'semantic-ui-react'
+// import { Icon } from 'semantic-ui-react'
 
 // Style
 import './competences.scss'
 
 // Context
 import ThemeContext from '../../Context/ThemeContext'
+// import SvgAdobephotoshop from '../IconComponent/Adobephotoshop'
+import SvgCss3 from '../IconComponent/Css3'
+import SvgGit from '../IconComponent/Git'
+import SvgJavascript from '../IconComponent/Javascript'
+import SvgLinux from '../IconComponent/Linux'
+import SvgMongodb from '../IconComponent/Mongodb'
+import SvgNodeDotJs from '../IconComponent/NodeDotJs'
+import SvgReact from '../IconComponent/React'
 
 // Image
-// import photoshop from '../../assets/adobe-photoshop.png'
-// import mongo from '../../assets/mongodb.png'
 
 function Competences() {
 
@@ -54,7 +60,7 @@ function Competences() {
         </div>
         <div className='competences-list'>
           <div className='competences-icon'>
-              <Icon className={
+              {/* <Icon className={
                 darkTheme ?
                 'react darkTheme' :
                 'react'
@@ -78,7 +84,15 @@ function Competences() {
                 darkTheme ?
                 'git darkTheme' :
                 'git'
-              } />
+              } /> */}
+              {/* <SvgAdobephotoshop /> */}
+              <SvgCss3 />
+              <SvgGit />
+              <SvgJavascript />
+              <SvgLinux />
+              <SvgMongodb />
+              <SvgNodeDotJs />
+              <SvgReact />
           </div>
         </div>
       </div>
