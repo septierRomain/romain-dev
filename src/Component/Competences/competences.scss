@@ -14,7 +14,7 @@
   margin: 0 auto;
 }
 .contents p {
-  padding-bottom: 5vh;
+  padding-bottom: 1em;
 }
 .darkTheme .competences-icon {
   color: #1F70BF;
@@ -30,4 +30,7 @@
 }
 #softskills p {
   padding: 0!important;
+}
+#softskills {
+  padding: 1em 0 0 0 ;
 }

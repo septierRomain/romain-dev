@@ -36,8 +36,13 @@ function Competences() {
         <p>    
           Au cours de mon cursus de formation j'ai pu apprendre différentes compétences que j'ai mis à profit dans divers langage de programmation et divers projets.
           J'ai une préfèrence toute particulière pour le front-end et de fait pour le Javascript. 
+        </p>
+        <p>
           J'adore combiner la technique, la logique et le design. Le développement web me permet de laisser libre cours à ma créativité.
-          J'ai eu la chance d'avoir plusieurs vies professionnelles. Comptable en cabinet d'expertise comptable, directeur de course sur un circuit automobile. J'ai désormais allié ma passion et mon métier. 
+          J'ai eu la chance d'avoir plusieurs vies professionnelles. Comptable en expertise comptable et directeur de course sur un circuit automobile. 
+        </p>
+        <p>
+          J'ai desormais la chance de pouvoir allier ma passion et mon métier.
         </p>
         <hr />
         <div id='softskills' className="skills-list">
