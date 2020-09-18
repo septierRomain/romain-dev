@@ -34,10 +34,10 @@ function Competences() {
         </h1>
         <hr />
         <p>    
-          Au cours de mon cursus de formation j'ai pu apprendre differentes competences que j'ai mis a profit dans divers langage de programmation et divers projets.
-          J'ai une preference toute particulier pour le front-end et de fait le Javascript qui est omnipresent. 
-          J'adore combiner la technique, la logique et le design. Le developpement web me permet de laisser libre court a ma creativité.
-          J'ai eu la chance d'avoir plusieurs vies pro. Tantot comptable en cabinet d'expertise comptable puis ensuite directeur de course sur un circuit automobile. J'ai desormais allié ma passion et mon metier. 
+          Au cours de mon cursus de formation j'ai pu apprendre différentes compétences que j'ai mis à profit dans divers langage de programmation et divers projets.
+          J'ai une préfèrence toute particulière pour le front-end et de fait pour le Javascript. 
+          J'adore combiner la technique, la logique et le design. Le développement web me permet de laisser libre cours à ma créativité.
+          J'ai eu la chance d'avoir plusieurs vies professionnelles. Comptable en cabinet d'expertise comptable, directeur de course sur un circuit automobile. J'ai désormais allié ma passion et mon métier. 
         </p>
         <hr />
         <div id='softskills' className="skills-list">
@@ -53,7 +53,7 @@ function Competences() {
               Curieux
             </li>
             <li>
-              A l'ecoute
+              A l'écoute
             </li>
           </ul>
         </div>
