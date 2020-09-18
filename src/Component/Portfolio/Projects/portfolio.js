@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import portofolio from '../../../assets/instalike.JPG'
+import portofolio from '../../../assets/portfolio.PNG'
 import ThemeContext from '../../../Context/ThemeContext';
 import './projects.scss'
 

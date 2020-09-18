@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import kalees from '../../../assets/kalees.JPG'
+import trip from '../../../assets/trip planner.PNG'
 import ThemeContext from '../../../Context/ThemeContext';
 import './projects.scss'
 
@@ -42,7 +42,7 @@ function TripPlanner () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={kalees}
+        image={trip}
         description="Application web permettant d'organiser un voyage entre amis."
         extra={extra}
         data-tip="TripPlanner"

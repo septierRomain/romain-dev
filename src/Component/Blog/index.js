@@ -19,6 +19,12 @@ function Blog() {
         <h1 className='titre'>
           Blog
         </h1>
+        <hr />
+        <div className='articles'>
+          <p>
+            Vous retrouverez ici les articles en rapport avec l'informatique.
+          </p>
+        </div>
       </div>
     </div>
   )
