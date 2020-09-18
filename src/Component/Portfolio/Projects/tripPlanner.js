@@ -29,11 +29,11 @@ function TripPlanner () {
         <a href='https://github.com/Gizmo675/my-trip-planner' target='blank'>
           <Icon name='github' />
         </a>
-        <a
+        {/* <a
         href='https://my-trip-planer.herokuapp.com/'
         target='blank'
         ><Icon name='eye' />
-        </a>
+        </a> */}
       </div>
     </div>
   )

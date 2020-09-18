@@ -26,11 +26,11 @@ function MyPortfolio () {
         <a href='https://github.com/Gizmo675/romain-dev' target='blank'>
           <Icon name='github' />
         </a>
-        <a
+        {/* <a
         href='https://septier-romain.tech/'
         target='blank'
         ><Icon name='eye' />
-        </a>
+        </a> */}
       </div>
     </div>
   )

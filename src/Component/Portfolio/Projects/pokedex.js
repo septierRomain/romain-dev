@@ -25,11 +25,11 @@ function Pokedex () {
         <a href='https://github.com/Gizmo675/pokedex' target='blank'>
           <Icon name='github' />
         </a>
-        <a
+        {/* <a
         href='https://eloquent-edison-pokedex.netlify.app/'
         target='blank'
         ><Icon name='eye' />
-        </a>
+        </a> */}
       </div>
     </div>
   )

@@ -28,11 +28,11 @@ function Instalike () {
         <a href='https://github.com/Gizmo675/InstaLike' target='blank'>
           <Icon name='github' />
         </a>
-        <a
+        {/* <a
         href='https://kalees.netlify.app/'
         target='blank'
         ><Icon name='eye' />
-        </a>
+        </a> */}
       </div>
     </div>
   )
