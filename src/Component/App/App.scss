@@ -35,7 +35,7 @@ li {
 .contents h1 {
   color: $main-title-color;
 }
-#Home, #Competences, #Portfolio, #Contact, #notFound {
+#Home, #Competences, #Portfolio, #Contact, #notFound, #Blog {
   width: 100%;
   text-align: center;
   transition-duration: 2000ms;
@@ -61,24 +61,25 @@ hr:hover{
 .titre{
   font-size: 5vmin;
   padding-bottom: 3vh;
+  transition-duration: 2000ms;
 }
 
 @media only screen and (max-width: 999px) {
-  #Portfolio, #Home, #Competences, #Contact {
+  #Portfolio, #Home, #Competences, #Contact, #Blog {
     background-image: url("../../assets/splash-very-low.png");
     background-size: cover;
   }
-  #Home, #Competences, #Contact, #notFound {
+  #Home, #Competences, #Contact, #notFound, #Blog {
     height: 100%;
     display: flex;
   }
 }
 @media only screen and (min-width: 1000px) {
-  #Portfolio, #Home, #Competences, #Contact {
+  #Portfolio, #Home, #Competences, #Contact, #Blog {
     background-image: url("../../assets/splash-low.png");
     background-size: cover;
   }
-  #Home, #Competences, #Contact, #notFound, #Portfolio {
+  #Home, #Competences, #Contact, #notFound, #Portfolio, #Blog {
     flex: 1 0 auto;
   }
 }

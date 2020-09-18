@@ -47,6 +47,9 @@ function Menu() {
         <Link to='/portfolio'>Portfolio</Link>
         </li>
         <li className='MenuLink' onClick={()=>setActive(!active)}>
+        <Link to='/blog'>Blog</Link>
+        </li>
+        <li className='MenuLink' onClick={()=>setActive(!active)}>
         <Link to='/contact'>Contact</Link>
         </li>
       </div>

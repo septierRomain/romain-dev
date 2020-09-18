@@ -15,6 +15,7 @@ import Competences from '../Competences';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import NotFound from '../404';
+import Blog from '../Blog'
 
 function App() {
 
@@ -43,6 +44,9 @@ function App() {
             </Route>
             <Route exact path='/contact'>
               <Contact />
+            </Route>
+            <Route exact path='/blog'>
+              <Blog />
             </Route>
             {/* Fallback - gestion de 404 */}
             <Route component={NotFound} />
