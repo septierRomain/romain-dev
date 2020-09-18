@@ -6,7 +6,7 @@ import './footer.scss'
 function Footer() {
   return(
     <div id="Footer">
-      <h3>
+      <p>
         <span className='leftFooter'>
           Codé avec <Icon name='heart outline' />
           par Septier Romain.
@@ -15,7 +15,7 @@ function Footer() {
           <Icon name='creative commons' />
           Tous droits réservés.
         </span>
-      </h3>
+      </p>
     </div>
   )
 };
