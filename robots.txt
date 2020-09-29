@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: www.septier-romain.tech/sitemap.xml
