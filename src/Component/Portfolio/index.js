@@ -12,6 +12,7 @@ import Instalike from './Projects/instalike';
 import Pokedex from './Projects/pokedex';
 import MyPortfolio from './Projects/portfolio';
 import TripPlanner from './Projects/tripPlanner';
+import Slack from './Projects/slack';
 
 function Portfolio() {
 
@@ -32,10 +33,11 @@ function Portfolio() {
         <hr />
         <div id='portfolio-cards'>
           <Kalees />
+          <Slack />
           <Instalike />
+          <Pokedex />
           <MyPortfolio />
           <TripPlanner />
-          <Pokedex />
         </div>
       </div>
     </div>
