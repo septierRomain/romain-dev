@@ -1,5 +1,5 @@
-export { default as Adobephotoshop } from './Adobephotoshop'
 export { default as Css3 } from './Css3'
+export { default as photoshop } from './Photoshop'
 export { default as Git } from './Git'
 export { default as Javascript } from './Javascript'
 export { default as Linux } from './Linux'

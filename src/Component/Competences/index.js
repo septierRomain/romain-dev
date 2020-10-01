@@ -5,7 +5,6 @@ import './competences.scss'
 
 // Context
 import ThemeContext from '../../Context/ThemeContext'
-// import SvgAdobephotoshop from '../IconComponent/Adobephotoshop'
 import SvgCss3 from '../IconComponent/Css3'
 import SvgGit from '../IconComponent/Git'
 import SvgJavascript from '../IconComponent/Javascript'
@@ -13,6 +12,7 @@ import SvgLinux from '../IconComponent/Linux'
 import SvgMongodb from '../IconComponent/Mongodb'
 import SvgNodeDotJs from '../IconComponent/NodeDotJs'
 import SvgReact from '../IconComponent/React'
+import SvgPhotoshop from '../IconComponent/Photoshop'
 
 // Image
 
@@ -64,7 +64,6 @@ function Competences() {
         </div>
         <div className='competences-list'>
           <div className='competences-icon'>
-              {/* <SvgAdobephotoshop /> */}
               <SvgCss3 />
               <SvgGit />
               <SvgJavascript />
@@ -72,6 +71,7 @@ function Competences() {
               <SvgMongodb />
               <SvgNodeDotJs />
               <SvgReact />
+              <SvgPhotoshop />
           </div>
         </div>
       </div>
