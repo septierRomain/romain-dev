@@ -47,7 +47,7 @@ function TripPlanner () {
         extra={extra}
         data-tip="TripPlanner"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
+      <Label as="a" color="red" ribbon >
         TripPlanner
       </Label>
     </div>

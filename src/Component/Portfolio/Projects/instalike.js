@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
 import insta from '../../../assets/instalike.JPG'
+import instaMac from '../../../assets/fake/instalike.png'
 import ThemeContext from '../../../Context/ThemeContext';
 
 function Instalike () {
@@ -41,12 +42,12 @@ function Instalike () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={insta}
+        image={instaMac}
         description="Clone du celebre reseau social instagram."
         extra={extra}
         data-tip="Insta"
       />
-      <Label as="a" color="red" ribbon style={{ position: 'absolute', top:'1em' }}>
+      <Label as="a" color="red" ribbon >
         Insta
       </Label>
     </div>

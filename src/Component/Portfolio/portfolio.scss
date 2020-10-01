@@ -16,6 +16,12 @@
   font-size: 1.5vh!important;
 }
 
+.ui.red.ribbon.label {
+  position: absolute;
+  top: 1em;
+  font-size: 1.5em;
+}
+
 // Responsive queries
 
 // Pour smartphone
@@ -39,14 +45,14 @@
     padding: 4vh 0;
   }
   .ui.card.project-card {
-    width: 20vw;
+    width: 25vw;
   }
   .image img{
-    width: 20vw!important;
+    // width: 20vw!important;
     height: 20vw!important;
   }
   .project-content {
-    padding: 2em 0;
+    padding: 2em 1em;
   }
 }
 

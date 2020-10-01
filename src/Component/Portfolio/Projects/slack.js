@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
 import slack from '../../../assets/slack chat.PNG'
+import slackMac from '../../../assets/fake/slack.png'
 import ThemeContext from '../../../Context/ThemeContext';
 
 function Slack () {
@@ -38,12 +39,12 @@ function Slack () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={slack}
+        image={slackMac}
         description="Creation d'une web app de messagerie"
         extra={extra}
         data-tip="slack"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
+      <Label as="a" color="red" ribbon >
         Slack
       </Label>
     </div>

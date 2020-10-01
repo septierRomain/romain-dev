@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
 import kalees from '../../../assets/kalees.JPG'
+import kaleesMac from '../../../assets/fake/kalees.png'
 import ThemeContext from '../../../Context/ThemeContext';
 import './projects.scss'
 
@@ -36,12 +37,12 @@ function Kalees () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={kalees}
+        image={kaleesMac}
         description="Site vitrine dun artiste peintre/graffeur."
         extra={extra}
         data-tip="Kalees"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
+      <Label as="a" color="red" ribbon >
         Kalees
       </Label>
     </div>

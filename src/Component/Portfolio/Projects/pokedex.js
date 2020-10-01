@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
 import pokedex from '../../../assets/pokedex.JPG'
+import pokedexMac from '../../../assets/fake/pokedex.png'
 import ThemeContext from '../../../Context/ThemeContext';
 
 function Pokedex () {
@@ -38,12 +39,12 @@ function Pokedex () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={pokedex}
+        image={pokedexMac}
         description="Creation dun pokedex via des requetes a une api."
         extra={extra}
         data-tip="Pokedex"
       />
-      <Label as="a" color="red" ribbon style={{ position: "absolute", top:"1em"}}>
+      <Label as="a" color="red" ribbon >
         Pokedex
       </Label>
     </div>
