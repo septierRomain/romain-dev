@@ -26,9 +26,6 @@ function Home() {
         </h2>
       </div>
       <div className='contents'>
-        {/* <h1 className='titre'>
-          Presentation
-        </h1> */}
         <hr />
         <p>
           Je suis developpeur web diplomé depuis 2020 et photographe.
@@ -50,12 +47,12 @@ function Home() {
                 <Icon className='linkedin' size='massive' />
               </a>
           </div>
-          <div id='sandbox'>
+          {/* <div id='sandbox'>
             <h2>Mes sandbox</h2>
               <a href='https://codesandbox.io/u/Gizmo675' target='blank'>
                 <Icon className='code' size='massive' />
               </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
