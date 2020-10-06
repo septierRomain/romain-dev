@@ -16,6 +16,9 @@ function Slack () {
           ReactJS
         </Label>
         <Label>
+          Redux
+        </Label>
+        <Label>
           Javascript
         </Label>
         <Label>
