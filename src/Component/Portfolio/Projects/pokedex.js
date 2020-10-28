@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import pokedex from '../../../assets/pokedex.JPG'
 import pokedexMac from '../../../assets/fake/pokedex.png'
 import ThemeContext from '../../../Context/ThemeContext';
 

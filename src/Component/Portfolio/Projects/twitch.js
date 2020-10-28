@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import portfolioMac from '../../../assets/fake/portfolio.png'
+import twitch from '../../../assets/fake/twitch.jpg'
 import ThemeContext from '../../../Context/ThemeContext';
 import './projects.scss'
 
-function MyPortfolio () {
+function Twitch () {
 
   const {darkTheme} = useContext(ThemeContext)
 
@@ -19,18 +19,18 @@ function MyPortfolio () {
           Javascript
         </Label>
         <Label>
-          SCSS
+          API
         </Label>
       </div>
       <div className='seeMore'>
-        <a href='https://github.com/Gizmo675/romain-dev' target='blank'>
+        <a href='https://github.com/Gizmo675/twitch-clone' target='blank'>
           <Icon name='github' />
         </a>
-        {/* <a
-        href='https://septier-romain.tech/'
+        <a
+        href='https://admiring-cori-96f86e.netlify.app'
         target='blank'
         ><Icon name='eye' />
-        </a> */}
+        </a>
       </div>
     </div>
   )
@@ -39,15 +39,15 @@ function MyPortfolio () {
     <div className="project-content" style={{ position: "relative" }}>
       <Card
         className={darkTheme ? "project-card darkTheme" : "project-card"}
-        image={portfolioMac}
-        description="Mon portfolio."
+        image={twitch}
+        description="Clone du site de streaming twitch."
         extra={extra}
-        data-tip="Portfolio"
+        data-tip="Twitch"
       />
       <Label as="a" color="red" ribbon >
-        Portfolio
+        Twitch
       </Label>
     </div>
   );
 }
-export default MyPortfolio;
+export default Twitch;

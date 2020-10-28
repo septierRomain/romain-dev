@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import slack from '../../../assets/slack chat.PNG'
 import slackMac from '../../../assets/fake/slack.png'
 import ThemeContext from '../../../Context/ThemeContext';
 

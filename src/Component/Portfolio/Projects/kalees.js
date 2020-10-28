@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import kalees from '../../../assets/kalees.JPG'
 import kaleesMac from '../../../assets/fake/kalees.png'
 import ThemeContext from '../../../Context/ThemeContext';
 import './projects.scss'

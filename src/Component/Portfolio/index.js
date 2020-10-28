@@ -13,6 +13,7 @@ import Pokedex from './Projects/pokedex';
 import MyPortfolio from './Projects/portfolio';
 import TripPlanner from './Projects/tripPlanner';
 import Slack from './Projects/slack';
+import Twitch from './Projects/twitch';
 
 function Portfolio() {
 
@@ -32,6 +33,7 @@ function Portfolio() {
         </h1>
         <hr />
         <div id='portfolio-cards'>
+          <Twitch />
           <Kalees />
           <Slack />
           <Instalike />

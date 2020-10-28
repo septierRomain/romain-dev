@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import { Card, Icon, Label } from 'semantic-ui-react'
 
-import insta from '../../../assets/instalike.JPG'
 import instaMac from '../../../assets/fake/instalike.png'
 import ThemeContext from '../../../Context/ThemeContext';
 
