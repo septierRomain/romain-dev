@@ -27,7 +27,7 @@ function Twitch () {
           <Icon name='github' />
         </a>
         <a
-        href='https://admiring-cori-96f86e.netlify.app'
+        href='https://my-twitch.netlify.app/'
         target='blank'
         ><Icon name='eye' />
         </a>
